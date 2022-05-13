@@ -8,13 +8,13 @@ export default function Home() {
       <Head>
         <title>jessieismessie</title>
         <meta name="description" content="Twitch Streamer who is grabbin' thighs and eatting nuggets." />
-		<meta property="og:type" content="website">
-		<meta property="og:image" content="/jim-ogimage">
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="/jim-twitterimage">
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="/jim-ogimage" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content="/jim-twitterimage" />
 
         <link rel="icon" href="/jim-favicon.ico" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 		
       </Head>
 
@@ -34,18 +34,7 @@ export default function Home() {
 		</header>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+ 
     </div>
   )
 }
