@@ -21,7 +21,7 @@ export default function Home() {
       <main className={styles.main}>
         <header>
 			<div>
-				<Image src="/jessieismessieText.svg" alt="jessieismessie Logo" layout="responsive" width={200} height={50} />
+				<Image src="/jessieismessieText.svg" alt="jessieismessie Logo" />
 			</div>
 		</header>
       </main>
