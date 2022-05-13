@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>jessieismessie</title>
-        <meta name="description" content="Twitch Streamer who is grabbin' thighs and eatting nuggets." />
+        <meta name="description" content="Twitch Streamer who is grabbin thighs and eatting nuggets." />
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content="/jim-ogimage" />
 		<meta name="twitter:card" content="summary_large_image" />
