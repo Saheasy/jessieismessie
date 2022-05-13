@@ -9,9 +9,9 @@ export default function Home() {
         <title>jessieismessie</title>
         <meta name="description" content="Twitch Streamer who is grabbin thighs and eatting nuggets." />
 		<meta property="og:type" content="website" />
-		<meta property="og:image" content="/jim-ogimage" />
+		<meta property="og:image" content="/jim-ogimage.png" />
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:image" content="/jim-twitterimage" />
+		<meta name="twitter:image" content="/jim-twitterimage.png" />
 
         <link rel="icon" href="/jim-favicon.ico" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
@@ -21,7 +21,7 @@ export default function Home() {
       <main className={styles.main}>
         <header>
 			<div>
-				<Image src="/jessieismessieText.svg" alt="jessieismessie Logo" layout="responsive" width={200} height={50} />
+				<Image src="/jessieismessieText.svg" alt="jessieismessie Logo" width={200} height={50} />
 			</div>
 		</header>
       </main>
