@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-		<header className={styles.grid-container}> 
+		<div className={styles.grid-container}> 
 			<div className={styles.header-logo}>
 				<Image src="/jessieismessieText.svg" alt="jessieismessie Logo" />
 			</div>
@@ -28,7 +28,7 @@ export default function Home() {
 				<nav><a href="https://www.youtube.com/channel/UCol1Sq9iELLdtK5U90mvrYw" target="noopener">YouTube</a></nav>
 				<nav><a href="https://twitter.com/jessieismessie_" target="noopener">Twitter</a></nav>
 			</div>
-		</header>
+		</div>
 		<div>
 			<h1>Main</h1>
 		</div>
