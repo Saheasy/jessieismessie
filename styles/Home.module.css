@@ -1,19 +1,22 @@
 .container {
   padding: 0 2rem;
 }
-
-.item1 { grid-area: logo; }
-.item2 { grid-area: socials; }
-.item3 { grid-area: content; background-color: palevioletred;}
-
 .main {
-  display: grid;
-  grid-template-areas:
-    'logo logo logo socials socials'
-    'content content content content';
-  gap: 10px;
-  background-color: #2196F3;
   padding: 10px;
+}
+.grid-container {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  padding: 10px;
+}
+
+.header-logo {
+  flex-grow: 2;
+}
+
+.header-socials {
+  flex-grow: 2;
 }
 
 .title a {
