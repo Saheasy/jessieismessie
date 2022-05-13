@@ -19,16 +19,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-		<div className={styles.item1}>
+		<div className={styles.header-logo}>
 			<Image src="/jessieismessieText.svg" alt="jessieismessie Logo" />
 		</div>
-		<div className={styles.item2}>
+		<div className={styles.header-socials}>
 			<nav><a href="https://www.twitch.tv/jessieismessie" target="noopener">Twitch</a></nav>
 			<nav><a href="https://www.youtube.com/channel/UCol1Sq9iELLdtK5U90mvrYw" target="noopener">YouTube</a></nav>
 			<nav><a href="https://twitter.com/jessieismessie_" target="noopener">Twitter</a></nav>
 		</div>
-		<div className={styles.item3}>
-
+		<div className={styles.main-content}>
+			<h1>Main</h1>
 		</div>
       </main>
 
