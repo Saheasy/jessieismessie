@@ -23,12 +23,12 @@ export default function Home() {
 			<Image src="/jessieismessieText.svg" alt="jessieismessie Logo" />
 		</div>
 		<div className={styles.item2}>
-			<nav><a href="https://www.twitch.tv/jessieismessie" target="_blank">Twitch</a></nav>
-			<nav><a href="https://www.youtube.com/channel/UCol1Sq9iELLdtK5U90mvrYw" target="_blank">YouTube</a></nav>
-			<nav><a href="https://twitter.com/jessieismessie_" target="_blank">Twitter</a></nav>
+			<nav><a href="https://www.twitch.tv/jessieismessie" target="noopener">Twitch</a></nav>
+			<nav><a href="https://www.youtube.com/channel/UCol1Sq9iELLdtK5U90mvrYw" target="noopener">YouTube</a></nav>
+			<nav><a href="https://twitter.com/jessieismessie_" target="noopener">Twitter</a></nav>
 		</div>
 		<div className={styles.item3}>
-			
+
 		</div>
       </main>
 
